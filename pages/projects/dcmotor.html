@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC Motor</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="../../css/projects_style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gnosis Arcana</h1>
+        <p class="ancient-quote">"Truth is the beginning of knowledge" -Aristotle</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a class="nav-link" href="../../indX.html">Home</a>
+        <a class="nav-link" href="../projects.html">Projects</a>
+        <a class="nav-link" href="../blog.html">Blog</a>
+        <a class="nav-link" href="../complex.html">Complex</a>
+        <a class="nav-link" href="../game.html">Games</a>
+    </nav>
+
+    <!-- Main content area -->
+    <div class="container">
+        <h2>DC Motor Project</h2>
+    </div>
+    <div class="items-needed">
+        <h3>Items Needed:</h3>
+
+        <div class="list-item">
+            <div class="item-info">
+                <div class="item-name">Raspberry Pi 4b+</div>
+                <div class="item-description">Running the basic desktop port on the Pi with a head setup
+                    for code execution.
+                </div>
+            </div>
+            <div class="item-image">
+                <img src="img/Pi.png" alt="Pi Photo">
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="item-info">
+                <div class="item-name">DC Motor</div>
+                <div class="item-description">Simple DC Motor. Amazon or Hobby Lobby like $0.50.
+                </div>
+            </div>
+            <div class="item-image">
+                <img src="img/dcmotor.png" alt="Motor Photo">
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="item-info">
+                <div class="item-name">Wires</div>
+                <div class="item-description">Basic wires, probably 24ga? Also, 2 resistors. 
+                </div>
+            </div>
+            <div class="item-image">
+                <img src="img/wires.png" alt="Wires Photo">
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="item-info">
+                <div class="item-name">External Power Supply</div>
+                <div class="item-description">Mine came with a kit from Amazon, it puts out 5v or 3v.
+                </div>
+            </div>
+            <div class="item-image">
+                <img src="img/powersupply.png" alt="Power Supply Photo">
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="item-info">
+                <div class="item-name">Motor Driver</div>
+                <div class="item-description">Specifically the L293D I.C. for this project.
+                </div>
+            </div>
+            <div class="item-image">
+                <img src="img/L293D.png" alt="L239D Photo">
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="item-info">
+                <div class="item-name">Bread Board</div>
+                <div class="item-description">Optional, but useful for drafting circuits.
+                </div>
+            </div>
+            <div class="item-image">
+                <img src="img/breadboard.png" alt="breadboard Photo">
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="item-info">
+                <div class="item-name">GPIO Expansion Ribbon</div>
+                <div class="item-description">Optional, but helpful for exapnding gpio pins to the board.
+                </div>
+            </div>
+            <div class="item-image">
+                <img src="img/pi_extend.JPG" alt="Expansion Ribbon Photo">
+            </div>
+        </div>
+        
+    </div> 
+    <div class="blueprint-needed">
+        
+
+        <div class="blueprint-item">
+            <div class="blueprint-info">
+                <div class="blueprint-name">L293D reference</div>
+                <div class="blueprint-description"> We're only using the red circled pins on the chip 
+                    
+                </div>
+            </div>
+            <div class="blueprint-image">
+                <img src="img/datasheet_l293d.png" alt="datasheet_l293d Photo">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h3>Project Steps</h3>
+
+    </div>
+    <div class="stepslist">
+        
+        <div class="steps-info">
+            <div class="steps-name">Step One:</div>
+            <div class="step-description">
+                Place the L293D chip on the board
+            </div>
+        </div>
+        <div class="steps-image">
+            <img src="img/1stStep.JPG" alt="1stStep Photo">
+        </div>
+    </div>
+    <div class="stepslist">
+        
+        <div class="steps-info">
+            <div class="steps-name">Step Two:</div>
+            <div class="step-description">
+                Chip Pin 1 to Pi Pin 17 & Chip Pin 2 to Pi Pin 27
+            </div>
+        </div>
+        <div class="steps-image">
+            <img src="img/2ndStep.JPG" alt="2ndStep Photo">
+        </div>
+    </div>    
+    <div class="stepslist">
+        
+        <div class="steps-info">
+            <div class="steps-name">Step Three:</div>
+            <div class="step-description">
+                Chip Pin 16 to Pi 5v Pin & Ground Pi/Chip Pins 4/5 to board
+            </div>
+        </div>
+        <div class="steps-image">
+            <img src="img/3rdStep.JPG" alt="3rdStep Photo">
+        </div>
+    </div>    
+    <div class="stepslist">
+        
+        <div class="steps-info">
+            <div class="steps-name">Step Four:</div>
+            <div class="step-description">
+                Add the External Power to the circuit
+            </div>
+        </div>
+        <div class="steps-image">
+            <img src="img/4thStep.JPG" alt="4thStep Photo">
+        </div>
+    </div>
+    <div class="stepslist">
+        
+        <div class="steps-info">
+            <div class="steps-name">Step Five:</div>
+            <div class="step-description">
+                Connect Motor to Chip Pin 3 and ground to board
+            </div>
+        </div>
+        <div class="steps-image">
+            <img src="img/5thStep.JPG" alt="5thStep Photo">
+        </div>
+    </div>
+    <div class="stepslist">
+        
+        <div class="steps-info">
+            <div class="steps-name">Final Result</div>
+            <div class="step-description">
+                Now to add the code!
+            </div>
+        </div>
+        <div class="steps-image">
+            <img src="img/Final_Result.JPG" alt="Final_Result Photo">
+        </div>
+    </div>  
+
+
+
+
+    <div class="code-container">
+        <h3>Writing the Code</h3>
+        <div class="code-breakdown">
+            <p>import pygame #using pygame for KEYS event handler</p>
+            <p>import RPi.GPIO as GPIO</p>
+            <p>pygame.init()</p>
+            <p>SCREEN = pygame.display.set_mode((420,333))</p>
+            <p>CLOCK = pygame.time.Clock()</p>
+            <p>ENABLE_PIN = 17</p>
+            <p>INPUT1_PIN = 27</p>
+            <p>GPIO.setmode(GPIO.BCM)</p>
+            <p>GPIO.setup(ENABLE_PIN, GPIO.OUT)</p>
+            <p>GPIO.setup(INPUT1_PIN, GPIO.OUT)</p>
+            <p>GPIO.output(ENABLE_PIN, GPIO.LOW)</p>
+            <p>def motor_forward():</p>
+            <p class="code-indented">GPIO.output(INPUT1_PIN, GPIO.HIGH)</p>
+            <p class="code-indented">GPIO.output(ENABLE_PIN, GPIO.HIGH)</p>
+            <p>def motor_stop():</p>
+            <p class="code-indented">GPIO.output(ENABLE_PIN, GPIO.LOW)</p>
+            <p>def HANDLER():</p>
+            <p class="code-indented">for event in pygame.event.get():</p>
+            <p class="code-indented2">
+                if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
+            </p>
+            <p class="code-indented3">
+                GPIO.cleanup()
+            </p>
+            <p class="code-indented3">
+                pygame.quit()
+            </p>
+            <p class="code-indented2">
+                if event.type == pygame.KEYDOWN:
+            </p>
+            <p class="code-indented3">
+                if event.key == pygame.K_UP:
+            </p>
+            <p class="code-indented4">
+                motor_forward()
+            </p>
+            <p class="code-indented4">
+                print("Motor Running")
+            </p>
+            <p class="code-indented3">
+                elif event.key == pygame.K_DOWN:
+            </p>
+            <p class="code-indented4">
+                motor_stop()
+            </p>
+            <p class="code-indented4">
+                print("Motor Stopping")
+            </p>
+            <p>def LOOP():</p>
+            <p class="code-indented">
+                while True:
+            </p>
+            <p class="code-indented2">
+                CLOCK.tick(30)
+            </p>
+            <p class="code-indented2">
+                SCREEN.fill("DarkBlue")
+            </p>
+            <p class="code-indented2">
+                HANDLER()
+            </p>
+            <p class="code-indented2">
+                pygame.display.flip() 
+            </p>
+            <p>
+                if __name__ == "__main__":
+            </p>
+            <p class="code-indented">
+                LOOP()
+            </p>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="container">
+        <h3>Final Thoughts</h3>
+        <p>My code doesn't utilize full capacity of voltage.
+            It spins the motor but not well under load.
+             Need to rewrite example code with
+            different module or incorporate PWM with full frequency somehow.
+            Will continue...
+        </p>
+        <p>I should really get the voltage readings for a better idea of what's happening;
+            however, I can tell just from having seen this run at full clip compared to it's 
+            current performance that it's something with the code. I don't think it's the I.C. or
+            any other hardware. It's likely I'm using the GPIO.BCM mode and need to utilize gpio.zero or 
+            another module.
+
+        </p>
+
+    </div>
+    <div class="conclusion">
+        <h5>
+            Thank You!
+        </h5>
+        <p>
+            Thanks for taking the time to read this and any thoughts or feedback can be submitted at 
+            thee33xp@proton.me
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+    <div>
+        <a href="pi.html" class="back-button">Back to Pi Projects</a>
+    </div>
+
+
+
+
+
+
+    <footer class="rights"> 
+        <p>&copy; <span id="year"></span> Thee33XP IV XX DCLXVI. All Rights Reserved. 
+            </p>    
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

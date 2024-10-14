@@ -1,0 +1,136 @@
+/* Basic styling for the entire site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6em;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.ancient-quote {
+    font-family: 'Lora', serif;
+    font-size: 1.0em;
+    font-style: italic;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-link {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    color: rgb(177, 0, 0);
+}
+
+.container {
+
+    padding: 20px;
+    text-align: center;
+}
+.welcome {
+    padding: 20px;
+    text-align: center;
+}
+.link-explain {
+    color: #444;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+    text-align: center;
+}
+.pro-link {
+    color: rgb(204, 204, 250);
+}
+.pro-link:hover {
+    color: red;
+}
+h3 {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.month-toggle {
+    background-color: #f1f1f1;
+    color: #444;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+.month-toggle:hover {
+    background-color: #e2e2e2;
+}
+
+.hidden {
+    display: none;
+}
+#year-2024 {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #444;
+    color: #f1f1f1;
+}
+
+.post-list {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #444;
+    color: #f1f1f1;
+}
+
+
+.back-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.rights {
+    color: green;
+    background-color: #444;
+    padding: 6px;
+    text-align: center;
+
+}

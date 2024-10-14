@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Military-Industrial Complex</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="../../../css/speech_style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gnosis Arcana</h1>
+        <p class="ancient-quote">"Truth is the beginning of knowledge" -Aristotle</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a class="nav-link" href="../../../indX.html">Home</a>
+        <a class="nav-link" href="../../projects.html">Projects</a>
+        <a class="nav-link" href="../../blog.html">Blog</a>
+        <a class="nav-link" href="../../complex.html">Complex</a>
+        <a class="nav-link" href="../../game.html">Games</a>
+    </nav>
+
+    <!-- Main content area -->
+
+    <div class="link-explain">
+             
+        <h4>Dwight Eisenhower Farewell Address.
+            </h4>
+        
+    </div>
+
+    <!-- Audio Section -->
+    <section class="sneaky-link">
+        <img src="Eisenhower.jpg" alt="Eisenhower Image" class="centered-image" width="259" height="194">
+        
+        <audio id="myAudio">
+            <source src="../../../audio/DE_Farewell_Address.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        <div>
+            <button id="playButton">Play</button>
+            <button id="pauseButton">Pause</button>
+        </div>
+
+        <div>
+            <input type="range" id="seekSlider" min="0" max="100" step="1" value="0">
+        </div>
+
+
+        <div>
+            <label for="volumeControl">Volume:</label>
+            <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.5">
+        </div>
+        
+        <h4>The Military-Industrial Complex</h4>
+        <p>Foreward: I started writing this on July 20th, 2024. I had heard the speech before but I gave
+            it a thorough listen prior to beginning my first draft. Since then, I've taken on other projects
+            and whatnot becoming distracted from this idea of breaking down these historical speeches and their implications.
+            As I've started to put this site together, I've decided to give the speeches a listen again and 
+            will continue updating these drafts as the opportunity is presented.
+        </p>
+        
+        <p>Update: The last edit to this was Aug 12th 2024.</p>
+        <h5>
+            January 17th, 1961
+
+        </h5>
+        <p>
+            President Dwight D. Eisenhower gave his farewell address to the nation.
+            During the speech he shared a few, solemn thoughts, with the audience, as he explained the standing 
+            America now had, on the world stage. This American might was not solely due to the material prosperity
+            of the country, nor to the military strength; but to the dependence of prestige and leadership 
+            mindful of balance while using this strength within the international community. He spoke of the 4 
+            major wars the world had found itself in over the course of the last half century, and the 
+            responsibility we, as a nation, had to continue the pursuit of progressing world peace and bettering 
+            mankind. That the basic purpose of our experiment in free government has been, and should continue 
+            to be, the fostering of progress in human achievement and the enhancement of Liberty, Dignity, 
+            and Integrity amongst peoples and nations. He also stated that anything less than this continued 
+            pursuit, would be unworthy of a free and religious people, ultimately leading to grievous hurt felt 
+            by the people home and abroad. 
+            </p>
+        <p>
+            Furthering his explanation of balance in pursuit of progress, Eisenhower cautions us with a dire
+            warning of future crises engulfed by the ideology of those who would wish to remove these freedoms.
+            The pursuit of these noble goals is, and will be, consistently threatened, as he describes us,
+            facing “... a hostile ideology, global in scope, atheistic in character, ruthless in purpose,
+            and insidious in method.” In meeting these threats, Eisenhower advises us to avoid the temptation
+            of reactionary measures without counsel of a broader scope first. He signifies the dangers inherent 
+            in irrational responses associated with singular solution thinking and points towards consideration
+            in the need of balance within the economy, current and future prospects of the nation, and the 
+            government's duty to the people and the duties it imposes on them. “Good judgment seeks balance 
+            in progress. Lack of it, eventually finds imbalance and frustration.” 
+        </p>
+        <p>
+            Of the general looming threats 
+            Eisenhower warns of, he mentions two specifically by name. The military industrial complex being the 
+            first, being the cause of costly overspending regarding the national defense budget. He pointed to 
+            the fact that more money was spent annually, on defense and security, than the net income of all U.S. 
+            corporations combined. He spoke on how massive the arms industry had become since the start of the 
+            century, as it was unprecedented and extremely influential, he recognized the imperative need for 
+            this development while also sharing a warning to the public hoping they would comprehend its 
+            potentially grave implications. The second specific warning Eisenhower gave in his farewell address, 
+            is time and an avoidance of the impulse to live only for the moment rather than planting seeds 
+            for future generations. He stated that by ignoring the long term impacts of policy, the precious 
+            material resources of tomorrow would be plundered and the heritage of their grandchildren would be 
+            lost. He hoped “democracy would survive for all generations to come and not become an insolvent 
+            Phantom of tomorrow.” He was worried public policy could become captive of a scientific and 
+            technological elite class, and that it was the responsibility of statesmen to integrate these 
+            discoveries and technologies within the principles of our democratic system, consistent with the 
+            supreme goals of our free society.
+
+        </p>
+        <h5>
+            Thank You!
+        </h5>
+        <p>
+            Thanks for taking the time to read this and any thoughts or feedback can be submitted at 
+            thee33xp@proton.me
+        </p>
+    </section>
+    <div>
+        <a href="../speeches.html" class="back-button">Back to Speeches</a>
+    </div>
+
+
+    <footer class="rights"> 
+        <p>&copy; <span id="year"></span> Thee33XP IV XX DCLXVI. All Rights Reserved. 
+            </p>    
+    </footer>
+    <script src="audio.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

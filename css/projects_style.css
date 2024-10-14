@@ -1,0 +1,301 @@
+/* Basic styling for the entire site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6em;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.ancient-quote {
+    font-family: 'Lora', serif;
+    font-size: 1.0em;
+    font-style: italic;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-link {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    color: rgb(177, 0, 0);
+}
+
+.container {
+
+    padding: 20px;
+    text-align: center;
+}
+.code-container {
+    color: #f2f2f2;
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+}
+.code-breakdown {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #444;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+
+}
+.code-indented {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #444;
+    background-color: #f2f2f2;
+    padding: 0px;
+    text-indent: 40px;
+    text-align: left;
+
+}
+.code-indented2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #444;
+    background-color: #f2f2f2;
+    padding: 0px;
+    text-indent: 80px;
+    text-align: left;
+
+}
+.code-indented3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #444;
+    background-color: #f2f2f2;
+    padding: 0px;
+    text-indent: 120px;
+    text-align: left;
+
+}
+.code-indented4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #444;
+    background-color: #f2f2f2;
+    padding: 0px;
+    text-indent: 160px;
+    text-align: left;
+
+}
+.welcome {
+    padding: 20px;
+    text-align: center;
+    
+    color: #444;
+    background-color: #f2f2f2;
+}
+.items-needed {
+    padding: 20px;
+    text-align: center;
+    
+    color: #f2f2f2;
+    background-color: #444;
+}
+.link-explain {
+    color: #444;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+}
+.sneaky-link {
+    padding: 20px;
+    text-align: left;
+
+    border: 13px solid #444;
+}
+.pro-link {
+    color: blue;
+}
+.pro-link:hover {
+    color: red;
+}
+
+.list-item {
+    
+    color: #f2f2f2;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+.item-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.item-info {
+    
+    color: #f2f2f2;
+    text-align: center;
+}
+.item-description {
+    font-size: 0.9em;
+    color: #f2f2f2;
+    margin-top: 5px;
+}
+
+
+.item-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.experiments {
+    padding: 20px;
+    text-align: center;
+    
+    color: #444;
+    background-color: #f2f2f2;
+}
+.blueprint-needed {
+    padding: 20px;
+    text-align: center;
+    
+    color: #f2f2f2;
+    background-color: #444;
+}
+.blueprint-item {
+    
+    color: #d9ff00;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+.blueprint-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.blueprint-info {
+    
+    color: #f2f2f2;
+    text-align: center;
+}
+.blueprint-description {
+    font-size: 0.9em;
+    color: #d9ff00;
+    margin: 15px;
+}
+
+
+.blueprint-image img {
+    width: 200px;
+    height: auto;
+    
+    margin: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.Steps {
+    padding: 20px;
+    text-align: left;
+    
+    color: #444;
+    background-color: #f2f2f2;
+}
+
+.stepslist {
+    
+    color: #444;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.steps-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.steps-info {
+    
+    color: #444;
+    text-align: center;
+}
+.step-description {
+    font-size: 0.9em;
+    color: #444;
+    margin-top: 5px;
+}
+
+
+.steps-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.conclusion {
+
+    padding: 20px;
+    text-align: center;
+    background-color: #444;
+    color: #f2f2f2;
+}
+
+
+.back-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+.rights {
+    color: green;
+    background-color: #444;
+    padding: 6px;
+    text-align: center;
+
+}
