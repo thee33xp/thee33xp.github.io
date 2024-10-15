@@ -132,6 +132,10 @@ nav {
 .pro-link:hover {
     color: red;
 }
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
 
 .list-item {
     
