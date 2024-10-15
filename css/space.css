@@ -1,0 +1,120 @@
+/* Basic styling for the entire site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6em;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.ancient-quote {
+    font-family: 'Lora', serif;
+    font-size: 1.0em;
+    font-style: italic;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-link {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    color: rgb(177, 0, 0);
+}
+
+.container {
+
+    padding: 20px;
+    text-align: center;
+}
+.welcome {
+    padding: 20px;
+    text-align: center;
+}
+.link-explain {
+    font-family: 'Lora', serif;
+    font-size: 1.6em;
+    color: #444;
+    padding: 20px;
+    text-align: center;
+}
+.sneaky-link {
+    padding: 20px;
+    text-align: left;
+
+    border: 13px solid #444;
+}
+.pro-link {
+    color: blue;
+}
+.pro-link:hover {
+    color: red;
+}
+.back-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+#seekSlider {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 6px;
+    cursor: pointer;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+.rights {
+    color: green;
+    background-color: #444;
+    padding: 6px;
+    text-align: center;
+
+}
