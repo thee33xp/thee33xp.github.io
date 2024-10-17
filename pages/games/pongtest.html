@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Game</title>
+  <link rel="stylesheet" href="../../css/test_game_style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Gnosis Arcana</h1>
+    <p class="ancient-quote">"Truth is the beginning of knowledge" -Aristotle</p>
+  </header>
+
+  <!-- Navigation bar -->
+  <nav>
+      <a class="nav-link" href="../../index.html">Home</a>
+      <a class="nav-link" href="../projects.html">Projects</a>
+      <a class="nav-link" href="../blog.html">Blog</a>
+      <a class="nav-link" href="../complex.html">Complex</a>
+      <a class="nav-link" href="../game.html">Games</a>
+  </nav>
+
+  <!-- Main content area -->
+  <div class="container">
+      <h2>PONG</h2>
+      <p>
+      </p>
+  </div>
+
+
+
+  <div class='game-container'>
+
+
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    
+    
+  </div>
+    
+  <div>
+    <a href="../game.html" class="back-button">Back to Games</a>
+  </div>
+
+
+  <footer class="rights"> 
+      <p>&copy; <span id="year"></span> Thee33XP IV XX DCLXVI. All Rights Reserved. 
+          </p>    
+  </footer>
+  <script src="pong.js"></script>
+  <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
